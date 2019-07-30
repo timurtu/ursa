@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button as NativeButton } from 'react-native'
-import styled from 'styled-components/primitives'
+import styled from 'styled-components/native'
 
 const Wrapper = styled.View`
   padding-horizontal: 20;

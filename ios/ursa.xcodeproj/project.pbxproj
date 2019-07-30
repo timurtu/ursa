@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ursaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ursaTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -20,6 +19,7 @@
 		3D965E333269619F1DB9899E /* libPods-ursa-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE5E5D8B1957451F2AF549C /* libPods-ursa-tvOSTests.a */; };
 		44DCDCEFE4833040C3E80F3E /* libPods-ursa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 748A3B0D87BB8E4FBC141E53 /* libPods-ursa.a */; };
 		87E886A67CC95BFAABEEC324 /* libPods-ursaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C087C84DDF9764D85C8B8 /* libPods-ursaTests.a */; };
+		1CB26AA79704491BAB7988E6 /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ADDAC6DED014C0F86802564 /* Dosis-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +67,7 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EE2C087C84DDF9764D85C8B8 /* libPods-ursaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ursaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6323B91AE61971BD492C1F5 /* Pods-ursa-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ursa-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ursa-tvOS/Pods-ursa-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3ADDAC6DED014C0F86802564 /* Dosis-Regular.ttf */ = {isa = PBXFileReference; name = "Dosis-Regular.ttf"; path = "../assets/fonts/Dosis-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +166,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				FD70A80C32DFFCFEC59D077A /* Pods */,
+				B8A321B00FCF4EC3968656ED /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -196,6 +198,15 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		B8A321B00FCF4EC3968656ED /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				3ADDAC6DED014C0F86802564 /* Dosis-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -284,7 +295,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -341,6 +352,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				1CB26AA79704491BAB7988E6 /* Dosis-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

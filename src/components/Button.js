@@ -1,8 +1,6 @@
-// @flow
-
 import React from 'react'
 import { Button as NativeButton } from 'react-native'
-import styled from 'styled-components'
+import styled from 'styled-components/primitives'
 
 const Wrapper = styled.View`
   padding-horizontal: 20;
@@ -10,7 +8,7 @@ const Wrapper = styled.View`
 `
 
 type Props = {
-  text: string,
+  text: string
 }
 
 export default function Button(props: Props) {

@@ -8,13 +8,13 @@ const Wrapper = styled.View`
 `
 
 type Props = {
-  text: string
+  text: string,
 }
 
 export default function Button(props: Props) {
   return (
     <Wrapper>
-      <NativeButton title={props.text} />
+      <NativeButton title={props.text} {...props} />
     </Wrapper>
   )
 }

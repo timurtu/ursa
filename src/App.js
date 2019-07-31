@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { Fragment, } from 'react'
+import { StatusBar, } from 'react-native'
 
-import Layout from './components/Layout'
 import Routes from './routes'
 
 export default function App() {
   return (
-    <Layout>
+    <Fragment>
+      <StatusBar barStyle="light-content" />
       <Routes />
-    </Layout>
+    </Fragment>
   )
 }

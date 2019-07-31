@@ -20,6 +20,7 @@
 		3D965E333269619F1DB9899E /* libPods-ursa-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE5E5D8B1957451F2AF549C /* libPods-ursa-tvOSTests.a */; };
 		44DCDCEFE4833040C3E80F3E /* libPods-ursa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 748A3B0D87BB8E4FBC141E53 /* libPods-ursa.a */; };
 		87E886A67CC95BFAABEEC324 /* libPods-ursaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C087C84DDF9764D85C8B8 /* libPods-ursaTests.a */; };
+		666E4CF7FC2A4FA0A806E409 /* Dosis-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6359E341FB0D425EAA06F452 /* Dosis-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EE2C087C84DDF9764D85C8B8 /* libPods-ursaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ursaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6323B91AE61971BD492C1F5 /* Pods-ursa-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ursa-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ursa-tvOS/Pods-ursa-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6359E341FB0D425EAA06F452 /* Dosis-Bold.ttf */ = {isa = PBXFileReference; name = "Dosis-Bold.ttf"; path = "../assets/fonts/Dosis-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				3ADDAC6DED014C0F86802564 /* Dosis-Regular.ttf */,
+				6359E341FB0D425EAA06F452 /* Dosis-Bold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				1CB26AA79704491BAB7988E6 /* Dosis-Regular.ttf in Resources */,
+				666E4CF7FC2A4FA0A806E409 /* Dosis-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

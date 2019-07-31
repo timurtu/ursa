@@ -1,14 +1,11 @@
 import React from 'react'
-import styled from 'styled-components/native'
 
-const Wrapper = styled.View``
-
-const Text = styled.Text``
+import Layout from '../../components/Layout'
 
 export default function Login() {
-  return (
-    <Wrapper>
-      <Text>Log In</Text>
-    </Wrapper>
-  )
+  return <Layout />
+}
+
+Login.navigationOptions = {
+  title: 'Log In',
 }
